@@ -1,6 +1,7 @@
 # pre-commit-hooks
 
 ```yaml
-- repo: https://github.com/codeskyblue/pre-commit-hooks
-  hooks:
-    id: forbid-words
+repos:
+  - repo: https://github.com/codeskyblue/pre-commit-hooks
+    hooks:
+    - id: forbid-words
