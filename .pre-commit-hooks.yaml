@@ -1,0 +1,5 @@
+- id: forbid-words
+  name: Forbidden Words
+  language: pygrep
+  args: ["-i"]
+  entry: didi|alibaba|alibaba-inc|/Users
